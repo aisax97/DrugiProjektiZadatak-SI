@@ -1,0 +1,57 @@
+.navbar-brand{
+    width:220px;
+    margin-left: 15px;
+  }
+  .navbar .nav-link {
+    color: #fff;
+}
+.navbar {
+    transition: all 0.4s;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+.collapse{
+    margin-left: 25px;
+}
+.about{
+    margin-top: 17px;
+}
+.igrice{
+    width: 100%;
+  z-index: 0;
+}
+.paragraf{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    margin-left: 10px;
+}
